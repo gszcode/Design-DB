@@ -47,6 +47,8 @@
 1. Una **encuesta** tiene **resultados** (_1 - M_)
 1. Un **encuestado** tiene **resultados** (_1 - M_)
 
+## Diagramas
+
 ### Modelo Relacional de la BD
 
 ![Modelo Relacional](Encuesta_ModeloRelacionalBD.png)
