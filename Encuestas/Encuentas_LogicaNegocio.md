@@ -46,3 +46,52 @@
 1. Una **pregunta** tiene **respuestas** (_1 - M_)
 1. Una **encuesta** tiene **resultados** (_1 - M_)
 1. Un **encuestado** tiene **resultados** (_1 - M_)
+
+### Modelo Relacional de la BD
+
+![Modelo Relacional](Encuesta_ModeloRelacionalBD.png)
+
+## Reglas de Negocio
+
+### encuestas
+
+1. Crear una encuesta
+1. Leer todas las encuesta
+1. Leer una encuesta en particular
+1. Actualizar una encuesta
+1. Eliminar una encuesta
+1. Aumentar el valor en 1 del atributo encuestado cada que se complete la encuesta
+
+### preguntas
+
+1. Crear una pregunta
+1. Leer todas las pregunta
+1. Leer una pregunta en particular
+1. Actualizar una pregunta
+1. Eliminar una pregunta
+
+### respuestas
+
+1. Crear una respuesta
+1. Leer todas las respuesta
+1. Leer una respuesta en particular
+1. Actualizar una respuesta
+1. Eliminar una respuesta
+
+### encuestados
+
+1. Crear un encuestado
+1. Leer todos los encuestados
+1. Leer un encuestado en particular
+1. Actualizar un encuestado
+1. Eliminar un encuestado
+1. Antes de crear un encuestado en la entidad, verificar mediante su email que no exista
+
+### resultados
+
+1. Crear un resultado
+1. Leer todos los resultados
+1. Leer un resultado en particular
+1. Actualizar un resutado
+1. Eliminar un resultado
+1. Sacar el porcentaje de asertividad que tuvo el encuestado al contestar la encuesta
